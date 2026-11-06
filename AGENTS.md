@@ -29,7 +29,7 @@ tick is a library of framed figures (plot, stub, tui) for docs and dashboards: p
 - The stylesheet must work without the script. The script only adds behavior.
 - Support a static mode (`data-tk-static` on any ancestor) and a theme (`data-tk-theme`) for every figure you add.
 - After you change a demo in `public/index.html`, run `bun run llms` and commit the new `public/llms.txt`. CI fails if the two differ.
-- `bun run llms` bakes in the origin `https://crwl.tech`. Keep that argument.
+- `bun run llms` bakes in the origin `https://tick.crwl.tech`. Keep that argument.
 - Keep the library near 7 KB gzipped. Say so in the PR if a change grows it.
 - Fonts are loaded per face, only when a figure uses them. Keep it that way.
 - Pushes to `main` deploy to production. Other branches get a preview build.

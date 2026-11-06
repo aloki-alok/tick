@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://crwl.tech">
+  <a href="https://tick.crwl.tech">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="docs/media/banner-dark.webp">
       <img alt="Three tick figures: a drawing sheet with numbered callouts, a perforated launch-checks ticket, and a terminal services panel" src="docs/media/banner-light.webp">
@@ -12,7 +12,7 @@
 <p align="center">
   Framed figures for docs, dashboards and write-ups.<br>
   Three styles, ten themes, plain CSS and one small optional script.<br>
-  <a href="https://crwl.tech"><b>crwl.tech</b></a>
+  <a href="https://tick.crwl.tech"><b>tick.crwl.tech</b></a>
 </p>
 
 <p align="center">
@@ -42,8 +42,8 @@ A terminal monitor panel: a hotkey number in the title, key hints on the bottom 
 ## Use
 
 ```html
-<link rel="stylesheet" href="https://crwl.tech/tick.css">
-<script type="module" src="https://crwl.tech/tick.js"></script>
+<link rel="stylesheet" href="https://tick.crwl.tech/tick.css">
+<script type="module" src="https://tick.crwl.tech/tick.js"></script>
 ```
 
 Copy a figure from the site or from `llms.txt`, then:
@@ -57,7 +57,7 @@ The library is about 7 KB gzipped. Each font face loads only when a figure on th
 
 ## For agents
 
-[`llms.txt`](https://crwl.tech/llms.txt) holds the markup for every figure. [`skill.md`](https://crwl.tech/skill.md) is a skill file that says which figure fits which data.
+[`llms.txt`](https://tick.crwl.tech/llms.txt) holds the markup for every figure. [`skill.md`](https://tick.crwl.tech/skill.md) is a skill file that says which figure fits which data.
 
 ## Develop
 
